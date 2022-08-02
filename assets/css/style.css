@@ -94,6 +94,14 @@ h1 {
         
     }
 }
+@media screen and (max-width: 500px) {
+    address {
+        font-size: 8px;
+    }
+    h1 {
+        font-size: 8px;
+        }
+}
 
 @media screen and (max-width: 392px) {
     ul {
