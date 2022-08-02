@@ -96,6 +96,7 @@ h1 {
     .foot {
         font-size: 8px;
     }
+}
 
 @media screen and (max-width: 392px) {
     ul {
