@@ -68,6 +68,18 @@ a {
     width: 102%;
     height: auto;
 }
+address {
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
+h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: end;
+
+}
 @media screen and (max-width: 640px) {
 
     body{
