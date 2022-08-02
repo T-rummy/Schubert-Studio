@@ -68,15 +68,13 @@ a {
     width: 102%;
     height: auto;
 }
-address {
+.foot {
     color: white;
     margin-top: 10px;
     font-size: 12px;
 }
 h1 {
-    color: white;
-    margin-top: 10px;
-    font-size: 12px;
+
     text-align: end;
 
 }
@@ -95,13 +93,9 @@ h1 {
     }
 }
 @media screen and (max-width: 500px) {
-    address {
+    .foot {
         font-size: 8px;
     }
-    h1 {
-        font-size: 8px;
-        }
-}
 
 @media screen and (max-width: 392px) {
     ul {
