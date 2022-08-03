@@ -35,9 +35,10 @@ header {
 }
 nav {
     padding-right: 5px;
+    
 }
 ul {
-    margin: 85px 7px -15px -10px;
+    margin: 85px 10px -15px -10px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
@@ -80,6 +81,9 @@ h1 {
         width:102%;
         
     }
+    .img-size {
+        width: 100%;
+    }
     body{
         background-color: black;
         height: fit-content;
@@ -92,6 +96,11 @@ h1 {
 @media screen and (max-width: 500px) {
     .foot {
         font-size: 8px;
+    }
+    nav {
+        padding-right: 5px;
+        margin-top: -115px;
+        margin-left: 55px;
     }
 }
 @media screen and (max-width: 392px) {
