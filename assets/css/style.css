@@ -271,6 +271,11 @@ h1 {
     top: 21px;
     left: 8px;
   }
+  @media screen and (max-width: 767px) {
+    .secnd-img {
+        margin-top: 22px;
+    }
+}
 
 
 @media screen and (max-width: 640px) {
@@ -289,21 +294,22 @@ h1 {
          margin: 85px 7px -15px -10px;
         }
 }
-@media screen and (max-width: 545px) {
-    .secnd-img {
-        margin-top: 22px;
-    }
-    .sm-nav {
-        visibility: visible;
-    }
+@media screen and (max-width: 550px) {
 
     .hide-bg-nav {
         visibility: hidden;
     }
+}
+@media screen and (max-width: 545px) {
+ 
+    .sm-nav {
+        visibility: visible;
+    }
     .img-size {
         width: 101%;
     }
-}
+  
+} 
 
 @media screen and (max-width: 500px) {
     .foot {
