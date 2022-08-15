@@ -7,6 +7,10 @@
     margin: 0;
     box-sizing: border-box;
 } 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 main{
     margin-top: 0;
 }
@@ -58,6 +62,11 @@ ul {
     
 li {
     margin-left: 15px;
+}
+li:hover {
+    text-decoration: line-through;
+    
+
 }
 .big-anc2{
     color: white;
