@@ -1,13 +1,16 @@
-// var bigNav = document.querySelector(".big-nav");
-// var anchor = document.querySelector(".big-anc2");
 
+$(document).ready(function () {
 
-// const screenSize = () => {
-// if (screen.width < 767) {
+  $('.first-button').on('click', function () {
 
-//     bigNav.setAttribute("class", "sm-nav");
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
 
-// }
-// }
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
 
-// screenSize();
+    $('.animated-icon3').toggleClass('open');
+  });
+});
