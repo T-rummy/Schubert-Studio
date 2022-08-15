@@ -279,20 +279,20 @@ h1 {
 
 
 @media screen and (max-width: 640px) {
-    header {
-        width:102%;
-        
-    }
-    .img-size {
-        width: 100%;
-    }
-    body{
-        background-color: black;
-        height: fit-content;
-        }
-     ul {
-         margin: 85px 7px -15px -10px;
-        }
+  header {
+      width:102%;
+      
+  }
+  .img-size {
+      width: 100%;
+  }
+  body{
+      background-color: black;
+      height: fit-content;
+      }
+   ul {
+       margin: 85px 7px -15px -10px;
+      }
 }
 @media screen and (max-width: 550px) {
 
