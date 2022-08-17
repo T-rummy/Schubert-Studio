@@ -20,42 +20,19 @@
 <body>
     <header>
       <a href="index.html" ><img  class="header-img" src="assets/images/SchubertStudio_Logo-01.png"/></a>
-        <!--Navbar-->
-<nav class="navbar navbar-dark  black darken-2 sm-nav">
 
-    <!-- Navbar brand -->
-  
-    <!-- Collapse button -->
-    <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
-      aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon3"><span></span><span></span><span></span></div>
-    </button>
-  
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent22">
-  
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="work.html">WORK <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="follow.html">FOLLOW</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACT</a>
-          </li>
-      </ul>
-      <!-- Links -->
-  
-    </div>
-    <!-- Collapsible content -->
-  
-  </nav>
-  <!--/.Navbar-->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="work.html">WORK</a>
+            <a href="about.html">ABOUT</a>
+            <a href="follow.html">FOLLOW</a>
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </div>
+        
+        <span class="sm-nav "style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
   
          <nav class=" big-nav hide-bg-nav">
             <ul>

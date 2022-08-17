@@ -1,20 +1,10 @@
-import $ from "jquery";
 
 
-$(document).ready(function () {
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-  $('.first-button').on('click', function () {
-
-    $('.animated-icon1').toggleClass('open');
-    
-  });
-  $('.second-button').on('click', function () {
-
-    $('.animated-icon2').toggleClass('open');
-  });
-  $('.third-button').on('click', function () {
-
-    $('.animated-icon3').toggleClass('open');
-  });
-});
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 
