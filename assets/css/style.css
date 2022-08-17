@@ -100,7 +100,7 @@ h1 {
     margin-top: 0;
 }
 .sm-nav {
-    margin: 60px 30px;
+    margin: 50px 30px;
     visibility: hidden;
     color: white;
     transform: scale(1.5);
@@ -141,7 +141,8 @@ h1 {
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: rgba(241, 241, 241, .5);
+  text-decoration: line-through;
 }
 
 /* Position the close button (top right corner) */
