@@ -180,6 +180,9 @@ i {
     animation-name: animatebottom;
     animation-duration: 1s
   }
+   .logo:hover {
+      color: black;
+  }
   
   @-webkit-keyframes animatebottom {
     from { bottom:-100px; opacity:0 } 
@@ -215,6 +218,9 @@ i {
  @media screen and (max-width: 900px) {
     #loader {
         margin-top: 125px;
+    }
+    .follow {
+        margin-top: 150px;
     }
 }
   @media screen and (max-width: 767px) {
