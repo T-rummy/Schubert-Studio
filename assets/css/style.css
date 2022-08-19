@@ -159,6 +159,45 @@ i {
   right: 45px;
   font-size: 60px;
 }
+#loader {
+    /* position: absolute; */
+    margin-top: 25%;
+    margin-left: 43%;
+    z-index: 1;
+    width: 20px;
+    height: auto;
+    font-size: medium;
+  }
+  
+  
+
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+  .rotate-img {
+      width: 150px;
+  }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
@@ -172,9 +211,18 @@ i {
  .move {
    margin-left: 100px;
  } 
+
+ @media screen and (max-width: 900px) {
+    #loader {
+        margin-top: 100px;
+    }
+}
   @media screen and (max-width: 767px) {
     .secnd-img {
         margin-top: 15px;
+    }
+    .rotate-img {
+        margin-top: 25%;
     }
 }
 
@@ -196,6 +244,10 @@ i {
       }
 }
 @media screen and (max-width: 550px) {
+    #loader {
+        margin-top: 70%;
+        margin-left: 100px;
+    }
 
     .hide-bg-nav {
         visibility: hidden;

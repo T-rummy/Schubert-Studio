@@ -9,6 +9,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet"/>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<script src="https://kit.fontawesome.com/a2d563b317.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
@@ -17,7 +19,11 @@
   <title>The Schubert Studio</title>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader">
+    <img class="fa-flip rotate-img" src="assets/images/SchubertStudio_Logo-01.png"/>
+  </div>
+  <main style="display:none;" id="myDiv" class="animate-bottom">
     <header>
         <img class="header-img" src="assets/images/SchubertStudio_Logo-01.png"/>
 
@@ -65,6 +71,7 @@
         <a class="col-6 foot" href="mailto:howdy@theschubertstudio.com">HOWDY@THESCHUBERTSTUDIO.COM</a>
         <h1 class="col-6 foot">DALLAS TX</h1>
     </footer>
+  </main>
 
     <script
   type="text/javascript"
