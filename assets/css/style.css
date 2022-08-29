@@ -1,7 +1,7 @@
 @font-face { 
     font-family:'GT Pressura', 'GT Pressura Mono'; 
-    src: url('./assets/fonts/GT-Pressura-Bold.ttf') format('ttf'); 
-    src: url('./assets/fonts/GT-Pressura-Mono-Light.ttf') format('ttf');
+    src: url('./assets/fonts/GT-Pressura-Bold.woff2') format('woff2'); 
+    src: url('./assets/fonts/GT-Pressura-Mono-Light.woff2') format('woff2');
     }
 
 * {
