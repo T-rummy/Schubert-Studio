@@ -1,5 +1,5 @@
 @font-face { 
-    font-family:'GT-Pressura'; 
+    font-family:'GT-Pressura-Bold'; 
     src: url('/fonts/GT-Pressura-Bold.ttf') format('ttf'); 
     font-style: normal;
     font-weight: bold;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
 } 
 a, a:hover, a:focus, a:active {
-    font-family: "GT-Pressura";
+    font-family: "GT-Pressura-Bold";
     text-decoration: none;
     color: inherit;
     font-size: large;
