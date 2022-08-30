@@ -17,7 +17,7 @@
     box-sizing: border-box;
 } 
 a, a:hover, a:focus, a:active {
-    font-family: GT-Pressura;
+    font-family: "GT-Pressura";
     text-decoration: none;
     color: inherit;
     font-size: large;
@@ -184,12 +184,12 @@ i {
     font-size: medium;
   }
   .case {
-      font-family: GT-Pressura-Mono;
+      font-family: "GT-Pressura-Mono";
   }
   
   
 .big-font {
-    font-family: "GT Pressura";
+    font-family: "GT-Pressura";
 }
 .email {
         text-align: left;
