@@ -4,7 +4,7 @@
     font-display: swap;
 } 
  @font-face {
-     font-family: 'GT Pressura Monoƒ';
+     font-family: 'GT Pressura Mono';
      src: url('/fonts/GT-Pressura-Mono-Light.woff') format('woff');
      font-display: swap;
  }
@@ -33,7 +33,7 @@ main{
     margin-top: 0;
 }
 body{
-    font-family: "GT Pressura"; 
+   font-family: "GT Pressura"; 
    background-color: black;
    height:max-content;
    padding-left: 5.2%;
