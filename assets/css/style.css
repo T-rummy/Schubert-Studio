@@ -1,27 +1,25 @@
-@font-face { 
-    font-family:'GT-Pressura-Bold'; 
-    src: url('/fonts/GT-Pressura-Bold.ttf') format('ttf'); 
-    font-style: normal;
-    font-weight: bold;
-    }
+ @font-face { 
+    font-family:'GT';
+    src: url('/fonts/GT-Pressura-Bold.woff') format('woff'); 
+    font-display: swap;
+} 
 
-        @font-face {
-            font-family: 'GT-Pressura-Mono';
+         /* @font-face {
+            font-family: 'GT Pressura Mono';
             src: url('/fonts/GT-Pressura-Mono-Light.ttf') format('ttf');
             font-style: normal;
                 font-weight: 100;
-        }
+        }  */
 
 * {
     margin: 0;
     box-sizing: border-box;
 } 
 a, a:hover, a:focus, a:active {
-    font-family: "GT-Pressura-Bold";
     text-decoration: none;
     color: inherit;
-    font-size: large;
-        letter-spacing: 1px;
+    /* font-size: large;
+        letter-spacing: 1px; */
 }
 .nav-text {
     font-size: large;
@@ -30,10 +28,12 @@ main{
     margin-top: 0;
 }
 body{
+    font-family: 'GT'; 
    background-color: black;
    height:max-content;
    padding-left: 5.2%;
    padding-right: 6%;
+  
 
 }
 header {
