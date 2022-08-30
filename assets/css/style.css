@@ -1,8 +1,13 @@
  @font-face { 
-    font-family:'GT';
+    font-family:'GT Pressura';
     src: url('/fonts/GT-Pressura-Bold.woff') format('woff'); 
     font-display: swap;
 } 
+ @font-face {
+     font-family: 'GT Pressura Monoƒ';
+     src: url('/fonts/GT-Pressura-Mono-Light.woff') format('woff');
+     font-display: swap;
+ }
 
          /* @font-face {
             font-family: 'GT Pressura Mono';
@@ -28,7 +33,7 @@ main{
     margin-top: 0;
 }
 body{
-    font-family: 'GT'; 
+    font-family: "GT Pressura"; 
    background-color: black;
    height:max-content;
    padding-left: 5.2%;
@@ -184,12 +189,12 @@ i {
     font-size: medium;
   }
   .case {
-      font-family: "GT-Pressura-Mono";
+      font-family: "GT Pressura Mono";
   }
   
   
 .big-font {
-    font-family: "GT-Pressura";
+    font-family: "GT Pressura";
 }
 .email {
         text-align: left;
