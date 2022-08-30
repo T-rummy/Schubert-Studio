@@ -1,14 +1,13 @@
 @font-face { 
     font-family:'GT-Pressura'; 
-    src: url('fonts/GT-Pressura-Bold.ttf') format('ttf'); 
+    src: url('/fonts/GT-Pressura-Bold.ttf') format('ttf'); 
     font-style: normal;
     font-weight: bold;
-    src: url('fonts/GT-Pressura-Mono-Light.ttf') format('ttf');
     }
 
         @font-face {
             font-family: 'GT-Pressura-Mono';
-            src: url('fonts/GT-Pressura-Mono-Light.ttf') format('ttf');
+            src: url('/fonts/GT-Pressura-Mono-Light.ttf') format('ttf');
             font-style: normal;
                 font-weight: 100;
         }
