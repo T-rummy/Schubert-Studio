@@ -1,11 +1,11 @@
  @font-face { 
     font-family:'GT Pressura';
-    src: url("/Schubert-Studio/fonts/GT-Pressura-Bold.woff") format("woff"); 
+    src: url("../../fonts/GT-Pressura-Bold.woff") format("woff"); 
     font-display: swap;
 } 
  @font-face {
      font-family: 'GT Pressura Mono';
-     src: url('/Schubert-Studio/fonts/GT-Pressura-Mono-Light.woff') format('woff');
+     src: url('../../fonts/GT-Pressura-Mono-Light.woff') format('woff');
      font-display: swap;
  }
 
